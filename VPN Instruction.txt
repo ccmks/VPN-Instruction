@@ -1,0 +1,27 @@
+I am not very familiar with Linux environtment but here is the parameter.
+
+You can choose 3 different method
+
+1 Use softether VPN Client
+Please download from here:
+https://www.softether-download.com/en.aspx
+
+Once you download, you can install and configure with following parameter:
+
+Server address: us-east1-shared.ccaremks.com
+username: arielway
+password: Password1
+virtual hub: arielway
+
+2. Use OpenVPN
+Please download the OpenVPN config from here:
+https://drive.google.com/drive/folders/1OhzTntzldgcKFRCd6i874HFgqyLsZHwK
+
+username: arielway@arielway
+password: Password1
+
+3. Use L2TP VPN
+Server address: us-east1-shared.ccaremks.com
+username: arielway@arielway
+password: Password1
+Pre-shared Key: ccaremks
