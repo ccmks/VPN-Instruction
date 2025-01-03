@@ -49,13 +49,13 @@ proxy-groups:
     type: select
     proxies:
       - XL BiznetGIO
-      - 
+      
 
 - name: Telkomsel
     type: select
     proxies:
       - Tsel BiznetGIO
-      - 
+      
 
 rules:
  - 
