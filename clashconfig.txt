@@ -42,7 +42,12 @@ proxies:
   - {name: Tsel BiznetGIO, server: quiz.int.vidio.com, port: 443, type: vmess, uuid: 5eb0612c-0371-4f00-95ce-c9e68d38e01d, sni: vpn2.ccaremks.com, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /vmess, headers: {Host: vpn2.ccaremks.com}}}
   
 
-
+proxy-groups:
+  - name: sshkit-generator
+    type: select
+    proxies:
+      - XL BiznetGIO
+      - Tsel BiznetGIO
 
 rules:
  - 
